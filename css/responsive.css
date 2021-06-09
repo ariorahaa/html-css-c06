@@ -81,7 +81,30 @@
         width: 150px;
         height: 150px;
     }
+
 }
+.header-logo img{
+    width: 35px;
+}
+
+.search img{
+    width:10px;  
+}
+.wishlist img{
+    width: 10px;
+}
+.cart img{
+    width:10px;
+}
+.login img{
+    width:10px;
+    
+}
+
+.header-list a{
+    margin-top: 25px;
+    padding: 20px 10px;
+    font-size: 10px; }
 
 @media all and (max-width: 670px) {
     .kiri {
@@ -165,4 +188,28 @@
     .footer-map {
         display: none;
     }
+
+}
+.header-logo img{
+    width: 35px;
+}
+
+.search img{
+    width:10px;  
+}
+.wishlist img{
+    width: 10px;
+}
+.cart img{
+    width:10px;
+}
+.login img{
+    width:10px;
+    
+}
+
+.header-list a{
+    margin-top: 25px;
+    padding: 20px 10px;
+    font-size: 10px; 
 }
