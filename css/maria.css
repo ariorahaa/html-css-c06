@@ -1,0 +1,66 @@
+h2{
+  font-family:sans-serif;
+}
+
+p1{
+  font-family:Impact;
+}
+
+.lesson-wrapper {
+    height: 500px;
+    padding-bottom: 90px;
+    background-color: #eeeeee;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: rgb(3, 3, 3);
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .lesson {
+    float: left;
+    width: 25%;
+  }
+
+  .lesson-icon {            
+    position: relative;            
+   }     
+     
+   .lesson-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #070707;
+  }
+
+  .header-right {
+    float: right;
+    background-color: rgba(255, 238, 238, 0.3);
+    transition: all 0.5s;
+  }
+  
+  .header-right:hover {
+    background-color: rgba(255, 254, 254, 0.5);
+  }
+  
+  .header-right a {
+    line-height: 0px;
+    padding: 40px 30px;
+    color: rgb(0, 0, 0);
+    display: block;
+  }
+

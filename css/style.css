@@ -1,0 +1,312 @@
+/*master*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+/*ario*/
+
+
+  .kiri img {
+      width: 35%;
+      float: left;
+      margin-left: 60px;
+
+      z-index: 1;
+  }
+
+  .kanan {
+      width: 55%;
+      float: right;
+      transition: all 0.8s;
+      position: absolute;
+      right: 0;
+    }
+
+    .text {
+        color: white;
+        height: 397px;
+        background-color:  rgb(48, 56, 65);
+        border-radius: 10px;   
+        opacity: 0.7;
+        padding-top: 80px;
+        padding-left: 40px;
+    }
+
+    .text h1 {
+        font-family: 'Nothing You Could Do', cursive;
+        text-overflow: ellipsis;
+        font-size: 100px;
+        margin: auto 10px;
+        white-space: nowrap;
+    }
+
+    .text h2 {
+        font-family: 'Nothing You Could Do', cursive;
+        text-overflow: ellipsis;
+        font-size: 50px;
+        margin: auto 10px;
+        white-space: nowrap;
+        margin-bottom: 20px;
+    }
+
+    .text a {
+        font-family: 'Nothing You Could Do', cursive;
+        font-size: 20px;
+        color: rgb(48, 56, 65);
+        background-color: white;
+        padding: 10px 10px;
+        margin-top: 30px;
+        box-shadow: 0 7px gray;
+    }
+
+    .kanan:hover {
+        width:100%;
+    }
+
+    .text:hover{
+        opacity: 1;
+        text-align: center;
+    }
+
+    .text a:active{
+        position: relative;
+        top: 7px;
+        box-shadow: none;
+    }
+
+/*jamal*/
+
+    .wrapper-platform{
+        text-align: center;
+        background-color: #00adb5;
+        padding: 60px;
+        width: 100%;
+        position: absolute;
+        top: 517px;
+    }
+    .container-jamal{
+        max-width:1170px;
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .title-platform{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 200;
+        font-size: 25px;
+        padding-bottom: 40px;
+        margin-bottom: 20px;
+        width: 100%;
+        color: black;
+    }
+    .list-platform{
+        display: flex;
+        justify-content: center;
+    }
+    .item-platform{
+        width: 25%;
+        padding: 10px 20px;
+    }
+    
+    .icon-platform img{
+        width:100px;
+        filter: grayscale(100%);
+        transition: all ease-in 1s;
+        cursor: pointer;
+    }
+    .icon-platform img:hover{
+        filter: grayscale(0);
+        transform: scale(1.2);
+    }
+
+    
+    /* Maria*/
+        .lesson-wrapper h2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+      
+        .lesson-wrapper p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+      
+      .lesson-wrapper {
+          height: 650px;
+          padding-bottom: 90px;
+          background-color: #eeeeee;
+          text-align: center;
+          top: 335px;
+          left: 0px;
+          width:100%;
+          position: absolute;
+        }
+        
+        .heading {
+          padding-top: 10px;
+          padding-bottom: 30px;
+          color: rgb(3, 3, 3);
+        }
+        
+        .heading h2 {
+          font-weight: normal;
+        }
+        
+        .lesson {
+          float: left;
+          width: 25%;
+        }
+      
+        .lesson-icon {            
+          position: relative;            
+         }     
+           
+         .lesson-icon p {
+          position: absolute;
+          top: 90px;
+          width: 100%;
+          color: white;
+        }
+        
+        .txt-contents {
+          width: 80%;
+          display: inline-block;
+          margin-top: 20px;
+          font-size: 15px;
+          color: #070707;
+        }
+      
+        .header-right {
+          float: right;
+          background-color: rgba(255, 238, 238, 0.3);
+          transition: all 0.5s;
+        }
+        
+        .header-right:hover {
+          background-color: rgba(255, 254, 254, 0.5);
+        }
+        
+        .header-right a {
+          line-height: 0px;
+          padding: 40px 30px;
+          color: rgb(0, 0, 0);
+          display: block;
+        }
+
+/* Dewa */
+
+        .footer-list {
+          color: #303841;
+      }   
+      
+      footer {
+          background-color:#ff5722;
+          height:250px;
+          font-style: lucida grande;
+          box-sizing: border-box;
+          opacity: 80%;
+          width: 100%;
+
+      }
+      
+      .footer-container {
+          width:100%;
+          padding: 20px;
+      }
+      .footer-logo {
+          width:200px;
+          float: right;
+          padding-top: 100px;
+          padding-right: 15px;
+      }
+      
+      .footer-logo p {
+          color: #303841;
+          font-size: 15px;
+          margin-right: 10px;
+      }
+      
+      .footer-logo img {
+          max-width: 60px;
+          margin-left: 0px;
+      }
+
+      footer {
+        position: absolute;
+        top: 980px;
+        left: 0px;
+      }
+
+      .footer-list {
+          float:left;
+          font-weight: bold;
+      }
+      
+      .footer-list a {
+          font-size: 30px;
+          margin-right:25px;
+          color: #303841;
+          
+      }
+      .footer-list p {
+          text-align: left;
+          color: #fff;
+          font-weight: normal;
+      }
+      
+      .footer-list h2 {
+          font-size: 25px;
+          margin-bottom: 5px;
+          border-bottom: 3px solid #303841;
+      }
+      
+      .footer-map {
+          float:left;
+          margin-left: 140px;
+      }
+      
+      .class a:hover {
+          color:#00adb5;
+      }
+
+      /*Irdani*/
+    .header-list a{
+        float: right;
+        margin-top: 25px;
+        padding: 20px 50px;
+        font-size: 20px;
+        color:aliceblue;
+        
+        
+    }
+    .header{
+        font-family: "helvatica";
+        background-color :#303841;
+        height:120px;
+    }
+    .header-logo img{
+        width: 85px;
+        margin-left: 10px;
+        margin-top: 13px;
+        float:left;
+    }
+    .search img{
+        width:15px;  
+    }
+    .wishlist img{
+        width: 15px;
+    }
+    .cart img{
+        width:15px;
+    }
+    .login img{
+        width:15px;
+        
+    }
