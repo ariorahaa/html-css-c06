@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
   
-  body {
+  body,html {
     margin: 0;
   }
   
@@ -14,7 +14,11 @@
 
 /*ario*/
 
-
+  .headingdua{
+      position: relative;
+      margin-bottom: 0px;
+      height: 397px;
+  }
   .kiri img {
       width: 35%;
       float: left;
@@ -24,18 +28,17 @@
   }
 
   .kanan {
-      width: 55%;
-      float: right;
+      width: 60%;
       transition: all 0.8s;
       position: absolute;
+
       right: 0;
     }
 
     .text {
         color: white;
-        height: 397px;
-        background-color:  rgb(48, 56, 65);
-        border-radius: 10px;   
+        height: 500px;
+        background-color:  rgb(48, 56, 65);   
         opacity: 0.7;
         padding-top: 80px;
         padding-left: 40px;
@@ -44,7 +47,7 @@
     .text h1 {
         font-family: 'Nothing You Could Do', cursive;
         text-overflow: ellipsis;
-        font-size: 100px;
+        font-size: 70px;
         margin: auto 10px;
         white-space: nowrap;
     }
@@ -106,7 +109,7 @@
         padding-bottom: 40px;
         margin-bottom: 20px;
         width: 100%;
-        color: black;
+        color:white;
     }
     .list-platform{
         display: flex;
@@ -277,11 +280,26 @@
       }
 
       /*Irdani*/
+    .header-list{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 40px;
+       
+    }
+    .login{
+        padding:2px 20px;
+        background-color:  #00adb5;
+        text-align: center;
+        border-radius: 10px;
+        margin-left: 40px;
+      }
+      .fa{
+        padding-right: 5px;
+      }
     .header-list a{
-        float: right;
         margin-top: 25px;
         padding: 20px 50px;
-        font-size: 20px;
+        font-size: 16px !important;
         color:aliceblue;
         
         
@@ -289,12 +307,11 @@
     .header{
         font-family: "helvatica";
         background-color :#303841;
-        height:120px;
+        height:100px;
     }
     .header-logo img{
-        width: 85px;
-        margin-left: 10px;
-        margin-top: 13px;
+        width: 100px;
+        padding:15px 20px;
         float:left;
     }
     .search img{
